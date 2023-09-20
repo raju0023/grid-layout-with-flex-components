@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+  
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .emoji a {
+    text-decoration: none;
+    background-color: #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    max-width: 1000px;
+  }
+  
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 9px;
+    padding: 1rems;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid grey;
+  }
+  
+  .emoji a {
+    text-decoration: none;
+    background-color: solid #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: auto; 
+  }
+  
+  .icon {
+    font-size: 3rem;
+    order: -1;
+    align-self: center;
+  }
+  .emojis {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: 
+      "face beer"
+      "joy seedling";
+      gap: 10px;
+  }
+  .emojis:nth-child(1) {
+      grid-area: face;
+  
+  }
+  .emojis:nth-child(2) {
+      grid-area: beer;
+  
+  }
+  .emojis:nth-child(3) {
+      grid-area: joy;
+  
+  }
+  .emojis:nth-child(4) {
+      grid-area:seedling;
+  
+  }
